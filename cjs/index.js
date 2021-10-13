@@ -3,7 +3,7 @@
 
 const {networkInterfaces} = require('os');
 
-class isIPv4 extends Array {
+class IPv4 extends Array {
   constructor() {
     super();
     for (const [_, values] of Object.entries(networkInterfaces())) {
@@ -24,4 +24,4 @@ class isIPv4 extends Array {
   }
 }
 
-module.exports = new isIPv4;
+module.exports = new IPv4;

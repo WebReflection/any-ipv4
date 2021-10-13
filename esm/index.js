@@ -2,7 +2,7 @@
 
 import {networkInterfaces} from 'os';
 
-class isIPv4 extends Array {
+class IPv4 extends Array {
   constructor() {
     super();
     for (const [_, values] of Object.entries(networkInterfaces())) {
@@ -23,4 +23,4 @@ class isIPv4 extends Array {
   }
 }
 
-export default new isIPv4;
+export default new IPv4;
