@@ -1,3 +1,5 @@
+/*! (c) Andrea Giammarchi - ISC */
+
 import {networkInterfaces} from 'os';
 
 class isIPv4 extends Array {

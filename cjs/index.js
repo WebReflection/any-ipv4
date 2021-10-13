@@ -1,4 +1,6 @@
 'use strict';
+/*! (c) Andrea Giammarchi - ISC */
+
 const {networkInterfaces} = require('os');
 
 class isIPv4 extends Array {

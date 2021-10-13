@@ -8,7 +8,11 @@
     "cjs": "ascjs --no-default esm cjs",
     "test": "c8 node test/index.js"
   },
-  "keywords": ["IP", "IPv4", "list"],
+  "keywords": [
+    "IP",
+    "IPv4",
+    "list"
+  ],
   "author": "Andrea Giammarchi",
   "license": "ISC",
   "devDependencies": {
@@ -23,5 +27,13 @@
       "default": "./cjs/index.js"
     },
     "./package.json": "./package.json"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebReflection/any-ipv4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WebReflection/any-ipv4/issues"
+  },
+  "homepage": "https://github.com/WebReflection/any-ipv4#readme"
 }
